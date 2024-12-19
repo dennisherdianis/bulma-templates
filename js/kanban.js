@@ -113,6 +113,19 @@ var App = new Vue({
             "beyond the wall",
             "the dragon and the wolf"
           ]
+        },
+        
+             {
+          name: "Season 8",
+          cardColor: "info",
+          items: [
+            "winterfell",
+            "a knight of the seven kingdoms",
+            "the long night",
+            "the last of the starks",
+            "the bells",
+            "the iron throne"
+          ]
         }
       ]     
     }

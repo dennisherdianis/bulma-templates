@@ -9,8 +9,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <!-- Bulma Version 0.7.2-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <!-- Bulma Version 1-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@1.0.2/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/inbox.css">
 </head>
 
@@ -28,32 +28,28 @@
                     <span></span>
                 </div>
             </div>
-
-            <div id="navMenu" class="navbar-menu">
-                <div class="navbar-end">
-                    <div class="navbar-item has-dropdown is-active">
-                        <a class="navbar-link">
-                            Account
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                    Account
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                        Dashboard
                         </a>
-
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                Dashboard
-                            </a>
-                            <a class="navbar-item">
-                                Profile
-                            </a>
-                            <a class="navbar-item">
-                                Settings
-                            </a>
-                            <hr class="navbar-divider">
-                            <div class="navbar-item">
-                                Logout
-                            </div>
-                        </div>
+                        <a class="navbar-item">
+                        Profile
+                        </a>
+                        <a class="navbar-item">
+                        Settings
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                        Logout
+                        </a>
                     </div>
                 </div>
-            </div>
+	        </div>
         </div>
     </nav>
     <div class="columns" id="mail-app">
@@ -152,7 +148,7 @@
                     <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
                 </p>
                 <p>
-                    <a class="icon" href="https://github.com/dansup/bulma-templates">
+                    <a class="icon" href="https://github.com/BulmaTemplates/bulma-templates">
                         <i class="fa fa-github"></i>
                     </a>
                 </p>
